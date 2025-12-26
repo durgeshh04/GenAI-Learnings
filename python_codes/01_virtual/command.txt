@@ -1,0 +1,10 @@
+// To create virtual environment:
+python3 -m venv .venv
+
+
+// To activate virtual environment:
+source ./.venv/bin/activate
+
+
+// How to install Third party packages:
+pip install -r ./requirement.txt
