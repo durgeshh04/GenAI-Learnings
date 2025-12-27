@@ -1,3 +1,5 @@
+# This file showcase the learnings of integer datatype and operators
+
 # We import third party packages using import in python
 import math
 
@@ -73,3 +75,8 @@ match n:
     case _:
         print("Invalid case")
 
+
+# In python we can also store integers like this one:
+
+# no = 10_00_000
+# print(no)   # 1000000
