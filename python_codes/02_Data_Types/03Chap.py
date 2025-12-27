@@ -28,6 +28,11 @@ class Operations:
 
     def floorDivision(self, a, b):
         print(f"Floor Division: {a // b}")
+
+    def power(self, a, b):
+        res = round(a ** b, 1)
+        print(f"{a} to the power of {b} is {res}")
+
     
     def findEvenOrOdd(self, a):
         if a % 2 == 0:
@@ -62,6 +67,9 @@ match n:
     case 6:
         a, b = obj.takeInputs(n)
         obj.findEvenOrOdd(a)
+    case 7: 
+        a, b = obj.takeInputs(n)
+        obj.power(a, b)
     case _:
         print("Invalid case")
 
