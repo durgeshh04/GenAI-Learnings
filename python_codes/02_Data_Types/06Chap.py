@@ -8,3 +8,10 @@ print(f"My tuple: {names}")
                                         # ValueError: too many values to unpack (expected 3)
 
 print(f"{name1}, {name2}, {name3}, {name4}")
+
+#Before Swapping:
+print(f"Before Swapping: {name1}, {name2}")
+
+# Swapping:
+name1, name2 = name2, name1
+print(f"After Swapping: {name1}, {name2}")
