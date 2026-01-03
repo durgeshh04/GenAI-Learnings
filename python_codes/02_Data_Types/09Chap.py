@@ -23,5 +23,5 @@ new_set.update(set2)
 print(f"new set: {new_set}")
 new_set.remove("n6")
 print(f"new set: {new_set}")
-new_set.pop()
+new_set.pop()                     #Since sets are unordered, you cannot choose which item to pop
 print(f"new set: {new_set}")
