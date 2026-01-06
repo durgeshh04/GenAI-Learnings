@@ -1,6 +1,3 @@
-dictionary = {
-    "name": "Eagle",
-    "age": 23
-}
+order = dict(category = "Clothes", type = "Tshirt", size = "L", price = 450)
 
-print(dictionary)
+print(f"Your order: {order}")
