@@ -10,5 +10,7 @@ print(f"Category of your order: {order["category"]}")
 order2 = {}
 order2['category'] = "Electronics"
 order2['type'] = "TV"
-
+order2["price"] = 13000
+print(f"New order: {order2}")
+del order2["price"]
 print(f"New order: {order2}")
