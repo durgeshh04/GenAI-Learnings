@@ -22,3 +22,9 @@ print(f"price is available for order 1? {"price" in order}")
 print(f"keys of dict: {order.keys()}")
 print(f"value of the dict: {order.values()}")
 print(f"items of the dict: {order.items()}")
+
+
+# Iterating through the dictionary
+
+for key, val in order.items():
+    print(f"{key}: {val}")
