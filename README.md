@@ -4,3 +4,6 @@
 -- LLM
 -- OpenAI
 -- Basics of python
+
+## Projects Ideas
+1) 
